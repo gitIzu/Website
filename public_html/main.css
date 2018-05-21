@@ -1,0 +1,48 @@
+@charset "Shift_JIS";
+	h1{
+		color:orange;
+		background: ivory;
+		margin-top: 10px;
+		padding: 10px;
+		font-size: 40px;
+		text-align: left;
+		text-shadow: 1px 1px 2px silver;
+		border-bottom: double 5px #FFC778;
+
+	}
+
+	.nav ul{
+		float: right;
+		list-style-type: none;
+		text-align: center
+		}
+	.nav ul li{
+		display: inline-block;
+		padding: 5px;
+		margin: 10px;
+		vertical-align: middle;
+		background: white;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px silver;
+		color: orange;
+		font-size: 30px
+	}
+	.table{
+		background: white;
+		width: 428px;
+		border: double 5px #4ec4d3;
+	}
+	.sunday{
+		color: red;
+	}
+	.saturday{
+	 	color: blue;
+	 }
+	 .prev-month{
+	 	color: gray;
+	 }
+	.body{
+		background-image: url(./img/may.jpeg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	{
