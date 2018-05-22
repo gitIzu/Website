@@ -8,16 +8,15 @@
     <body>
 			<script language="JavaScript">
 	      <!--
-	        var dateObj = new Date();
-		    var dateHour = '0'+dateObj.getHours();
-		    var dateMin = '0'+dateObj.getMinutes();
-		    var dateYear = '0'+dateObj.getFullYear();
+	        var dateObj = new Date(document.lastModified);
+		    var dateYear = dateObj.getFullYear();
 		    var dateMon = dateObj.getMonth() +1;
 		    var dateDate = dateObj.getDate();
+			var dateHour = '0'+dateObj.getHours();
+		    var dateMin = '0'+dateObj.getMinutes();
 		    dateHour = dateHour.substr(dateHour.length-2,2);
 		    dateMin = dateHour.substr(dateMin.length-2,2);
-		    dateSec = dateHour.substr(dateSec.length-2,2);
-		    alert( "現在の時刻は " + dateYear + '年' + dateMon + '月' + dateDate +'日'+dateHour + ':' + dateMin + 'です'  );
+		    alert( "このページの最終更新日時は"+dateYear + '年' + dateMon + '月' + dateDate +'日'+dateHour + ':' + dateMin + 'です');
 	      //-->
 	    </script>
        <body style="background-image: url(./img/may.jpeg);">
