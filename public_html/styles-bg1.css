@@ -1,0 +1,8 @@
+@charset "Shift_JIS";
+table { background-color: maroon; }
+tr { height:100px; text-align: center; }
+body { background-image: url(img/singapore_sky.jpg);
+	background-repeat : fixed;
+	background-attachment : scroll;
+	background-size : cover;}
+td[style*="black"]{ color:white }
