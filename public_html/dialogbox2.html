@@ -8,12 +8,14 @@
     <body>
 		<script language="JavaScript">
 		<!--
-		var dateObj = new Date(document.lastModified);
+		// var dateObj = new Date(document.lastModified);
+		var dateObj = new Date()
+
 		var dateYear = dateObj.getFullYear();
 		var dateMon = dateObj.getMonth() +1;
 		var dateDate = dateObj.getDate();
-		var dateHour = dateObj.getHours < 10 ? '0' : '' + dateObj.getHours();
-		var dateMin = dateObj.getMinutes < 10 ? '0' : '' + dateObj.getMinutes();
+		var dateHour = dateObj.getHours() < 10 ? '0' + dateObj.getHours() : dateObj.getHours();
+		var dateMin = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
 
 		alert( "このページの最終更新日時は" + dateYear + '年' + dateMon + '月' + dateDate + '日'+dateHour + ':' + dateMin + 'です');
 	      //-->
