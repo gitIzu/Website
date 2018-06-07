@@ -1,0 +1,54 @@
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+        <title>Thailand</title>
+        <link rel="stylesheet" href="Thailand.css" type="text/css" />
+	</head>
+	<script type="text/javascript">
+	<!--
+	var count = 1;
+
+	function updateImage(isNext) {
+		if (isNext) {
+			if (count == 7) {
+				count = 1;
+			} else {
+				count++;
+			}
+		} else {
+			if (count == 1) {
+				count = 7;
+			} else {
+				count--;
+			}
+		}
+		// if (count == 1) {
+		// 	document.write("このページの背景写真はワットポーの仏像です。<br />ワットポーの前ではぼったくりが多いので気をつけてください。");
+		// }  else if (count == 2) {
+		// 	document.write("このページの背景写真はタイの交通渋滞です。<br />日本と違って車線関係なく追い越すドライビングテクニックがすごいです。");
+		// } else if (count == 3) {
+		// 	document.write("3");
+		// } else if (count == 4) {
+		// 	document.body.stayle.write("このページの背景写真はアユタヤです。<br />バンコクから少し離れているのでツアーがおすすめです。");
+		// }
+		document.body.style.backgroundImage = "url(./img/Thai"+count+".JPG)";
+	}
+
+		// document.write("このページの背景写真はワットポーの仏像です。<br />ワットポーの前ではぼったくりが多いので気をつけてください。");
+		// alert("[OK]を押すと背景画像を変えます。");
+		// updateImage(2);
+		// document.write("このページの背景写真はタイの交通渋滞です。<br />日本と違って車線関係なく追い越すドライビングテクニックがすごいです。");
+		// alert("[OK]を押すと背景画像を変えます。");
+		// updateImage(4)
+		// document.write("このページの背景写真はアユタヤです。<br />バンコクから少し離れているのでツアーがおすすめです。");
+		// alert("[OK]を押すと背景画像を変えます。");
+		// updateImage(3)
+	//-->
+	</script>
+	<body>
+			<form name="myFORM">
+				<input type="button" value="次の画像" onClick="updateImage(true)"><br>
+				<input type="button" value="前の画像" onClick="updateImage(false)"><br>
+			</form>
+		</body>
+</html>

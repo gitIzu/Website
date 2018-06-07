@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><title>IF文</title>
+<metacharset="Shift_JIS">
+	<script type="text/javascript">
+	<!--
+		function Hantei() {
+			varscore = parseFloat(document.form.score1.value);
+			if (score >= 90) {
+				varseiseki="秀です";
+			} else if (score >= 80) {
+				varseiseki="優です";
+			} else if (score >= 70) {
+				varseiseki="良です";
+			} else if (score >= 60) {
+				varseiseki="可です";
+			} else {
+				varseiseki="不可です";
+			}
+			alert(seiseki);
+		}
+	// -->
+	</script>
+</head>
+<body>
+	<form name="form">
+		０～１００の範囲の点数を入力して下さい<br>
+		<input type="text" name="score1">
+		<input type= "button" value= "判定" onclick="Hantei()">
+	</form>
+</body>
+</html>

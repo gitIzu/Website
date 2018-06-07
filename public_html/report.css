@@ -1,0 +1,53 @@
+@charset "UTF-8";
+	.body{
+			background-image: url(./img/universe.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+	}
+	.h1{
+		font-family: "cursive"
+	}
+	.ribbon{
+		display: inline-block
+		position: relative;
+		height: 100px;
+		line-height: 100px;
+		vertical-align: middle;
+		text-align: center;
+		padding: 7px 0;
+		font-size: 18px;
+		background: #acd879;
+		color: #FFF;
+		box-sizing: border-box;
+	}
+	.ribbon h1{
+		vertical-align: middle;
+		margin: 0;
+		padding: 0 30px;
+		border-top: dashed 2px rgba(255, 255, 255, 0.5);
+		border-bottom: dashed 2px rgba(255, 255, 255, 0.5);
+		line-height: 82px;
+	}
+	.ribbon:before, .ribbon:after{
+		position: absolute;
+		content: '';
+		width: 0px;
+		height: 0px;
+		z-index: 1;
+	}
+	.index{
+		padding: 20px;
+	}
+	.index li{
+		display: inline-block;
+		border: 1px solid #fff;
+		padding: 10px;
+		background: gray;
+		width: 100px;
+		text-align: center;
+	}
+	.index li a{
+		color: #fff;
+		text-decoration: none;
+	}
+	

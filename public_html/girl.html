@@ -1,0 +1,18 @@
+
+<html lang="ja">
+<head>
+<title>onMouseMove</title>
+<metacharset="Shift_JIS">
+<script type="text/javascript">
+	function mousemove(event)
+	{
+		var obj=document.getElementById("tubame");
+		obj.style.left=event.clientX+1;
+		obj.style.top=event.clientY+1;
+	}
+</script>
+</head>
+<body onMouseMove="mousemove(event)">
+<img id="girl" src="girl.png" style="position:absolute;left:0;top:0">
+</body>
+</html>
